@@ -1,0 +1,19 @@
+// devcontainer.json
+
+{
+    "name": "BazelC++",
+    "dockerFile": "Dockerfile",
+    "customizations": {
+        "vscode": {
+          "extensions": [
+            "bazelbuild.vscode-bazel",
+            "ms-vscode.cpptools",
+            "davidanson.vscode-markdownlint",
+            "xaver.clang-format",
+            "llvm-vs-code-extensions.vscode-clangd",
+            "ms-python.python"
+          ]
+        }
+      }
+}
+  
